@@ -1,14 +1,37 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { MatButtonModule, MatCheckboxModule, MatDatepickerModule, MatFormFieldModule,
+  MatInputModule, MatRadioModule, MatSelectModule, MatSliderModule,
+  MatSlideToggleModule, MatToolbarModule, MatListModule, MatGridListModule,
+  MatCardModule, MatIconModule, MatProgressSpinnerModule, MatDialogModule } from '@angular/material';
 
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MatButtonModule,
+    MatCheckboxModule,
+    MatDatepickerModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatRadioModule,
+    MatSelectModule,
+    MatSliderModule,
+    MatSlideToggleModule,
+    MatToolbarModule,
+    MatListModule,
+    MatGridListModule,
+    MatCardModule,
+    MatIconModule,
+    MatProgressSpinnerModule,
+    MatDialogModule,
+    FlexLayoutModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
